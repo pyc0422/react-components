@@ -1,6 +1,9 @@
+var Apple = <li> {'5 apple'} </li>;
+var Banana = <li>{'2 banana'}</li>;
 var GroceryList =
   <ul>
-    <li>{ 'apple' }</li>
-    <li>{ 'banana' }</li>
+    { Apple }
+    { Banana }
   </ul>;
+
 ReactDOM.render(GroceryList, document.getElementById("app"));
